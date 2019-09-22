@@ -30,22 +30,23 @@ h2{
 #header{
   background-color: #219c89;
   color: white;
+  padding: 10px 20px 20px 20px;
 }
 
 .a{
   text-decoration: none;
-    color: white;
+    color: blue;
 }
 .a:hover{
-  color: blue;
+  color: white;
 }
 
 .a1{
   text-decoration: none;
-    color: red;
+    color: blue;
 }
 .a1:hover{
-  color: blue;
+  color: black;
 }
 
 #about , #comedic , #education, #skills
