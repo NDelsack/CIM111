@@ -1,0 +1,26 @@
+.grid_container {
+  display: grid;
+  grid-template-areas:
+  "yellow yellow red"
+  "blue blue blue";
+}
+
+.box {
+  border: 1px solid #000000;
+  font-family: monospace;
+}
+
+.yellow {
+  grid-area: yellow;
+  background-color: yellow;
+}
+
+.red {
+grid-area: red;
+background-color: red;
+}
+
+.blue {
+grid-area: blue;
+background-color: cyan;
+}
