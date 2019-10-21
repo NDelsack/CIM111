@@ -1,0 +1,124 @@
+@media only screen and (min-width: 400px){
+  body{
+    margin: 1% 2%;
+  }
+}
+
+html{
+    margin: auto;
+    overflow: scroll;
+    background-color: orange;
+  }
+
+body{
+    width: 1000px;
+    margin: auto;
+    border: 3px solid;
+    border-color: orange;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+
+nav a{
+  display: inline-block;
+  margin-right: 3px;
+  color: orange;
+  padding: 5px;
+  background-color: green;
+  text-decoration: none;
+  align-content: center;
+
+}
+
+#title{
+  color: green;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+#meet{
+  color: green;
+}
+
+#details{
+  color: green;
+}
+
+.intro {
+  display: grid;
+  grid-template-areas:
+  "meet_heading meet_heading"
+  "meet_description meet_pic";
+}
+
+
+.meet_heading {
+  grid-area: meet_heading;
+  align-content: center;
+  margin: auto;
+}
+
+.meet_pic{
+  grid-area: meet_pic;
+}
+
+.meet_description{
+  grid-area: meet_description;
+}
+
+
+.where{
+  display: grid;
+  grid-template-areas:
+  "details_heading details_heading"
+  "details_description details_description"
+  "details_pic details_pic";
+}
+
+
+
+.details_heading {
+  grid-area: details_heading;
+  margin: auto;
+}
+
+.details_pic{
+  grid-area: details_pic;
+  margin: auto;
+}
+
+.details_description{
+  grid-area: details_description;
+  margin: auto;
+  width: 800px;
+}
+
+.feinstein{
+  display: grid;
+  grid-template-areas:
+  "below_heading below_heading"
+  "below_description below_pic";
+}
+
+
+
+.below_heading {
+  grid-area: details_heading;
+  margin: auto;
+}
+
+.below_pic {
+  grid-area: details_pic;
+  margin: auto;
+}
+
+.below_description {
+  grid-area: details_description;
+  margin: auto;
+  width: 800px;
+}
+
+#beach {
+  margin: auto;
+}
