@@ -1,0 +1,145 @@
+body {
+  background-color: #grey;
+  text-align: center;
+  font-family: "Sunshiney";
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 7px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: pink;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2.landmarks-grid {
+  grid-area: landmarks-grid;
+  font-size: 100px;
+}
+
+img.sky {
+  align-items: center;
+}
+
+p {
+  font-size: 30px;
+}
+
+nav {
+  text-align: center;
+  font-family: "Sunshiney";
+}
+
+#show,
+#drop {
+  padding: 10px;
+  text-align: center;
+  background-color: pink;
+  font-size: 40px;
+  cursor: crosshair;
+}
+
+#show {
+  padding: 30px;
+  display: none;
+  font-size: 25px;
+}
+
+#grid1 {
+  display: grid;
+  grid-template-areas:
+    ". landmarks-grid ."
+    ". grid1-pic ."
+    ". filler-1 .";
+}
+
+img.grid1-pic {
+  grid-area: grid1-pic;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.filler-1 {
+  grid-area: filler-1;
+}
+
+ul {
+  list-style: none;
+  font-size: 30px;
+}
+
+#grid2 {
+  display: grid;
+  grid-template-areas:
+    "night-grid night-grid night-grid"
+    "grid2-pic grid2-pic grid2-pic"
+    "filler-2 filler-2 filler-2";
+}
+
+h2.night-grid {
+  grid-area: night-grid;
+  font-size: 100px;
+}
+
+img.grid2-pic {
+  grid-area: grid2-pic;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.filler-2 {
+  grid-area: filler-2;
+}
+
+#grid3 {
+  display: grid;
+  grid-template-areas:
+    "food-grid food-grid food-grid"
+    "grid3-pic grid3-pic grid3-pic"
+    "filler-3 filler-3 filler-3";
+}
+
+h2.food-grid {
+  grid-area: food-grid;
+  font-size: 100px;
+}
+
+img.grid3-pic {
+  grid-area: grid3-pic;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.filler-3 {
+  grid-area: filler-3;
+}
+
+#grid4 {
+  display: grid;
+  grid-template-areas:
+    "cheap-grid cheap-grid cheap-grid"
+    "grid4-pic grid4-pic grid4-pic"
+    "filler-4 filler-4 filler-4";
+}
+
+h2.cheap-grid {
+  grid-area: cheap-grid;
+  font-size: 100px;
+}
+
+img.grid4-pic {
+  grid-area: grid4-pic;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.filler-4 {
+  grid-area: filler-4;
+}
+
+#footer {
+  font-size: 30px;
+  cursor: crosshair;
+}
