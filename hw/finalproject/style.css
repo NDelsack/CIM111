@@ -1,0 +1,16 @@
+body {
+  font-family: "Old Standard TT", serif;
+  background-color: #b3f0ff;
+}
+
+.nd {
+  color: #003366;
+  font-size: 100px;
+  text-align: center;
+}
+
+.sub {
+  color: #003366;
+  font-size: 60px;
+  text-align: center;
+}
