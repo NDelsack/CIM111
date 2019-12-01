@@ -14,3 +14,29 @@ body {
   font-size: 60px;
   text-align: center;
 }
+
+.main-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 160px;
+  margin-right: 60px;
+  color: #b3f0ff;
+  padding: 5px;
+  background-color: #003366;
+  font-size: 20px;
+  text-decoration: none;
+  align-content: center;
+}
+
+#first {
+  margin: auto;
+  align-items: center;
+  animation-fill-mode: forwards;
+  align-content: center;
+}
