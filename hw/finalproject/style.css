@@ -1,6 +1,8 @@
 body {
   font-family: "Old Standard TT", serif;
   background-color: #b3f0ff;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .nd {
@@ -15,17 +17,19 @@ body {
   text-align: center;
 }
 
+#first {
+  margin: auto;
+  width: 100%;
+}
+
 .main-pic {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1000px;
+  width: 100%;
 }
 
 nav a {
   display: inline-block;
-  margin-left: 160px;
-  margin-right: 60px;
+  margin-left: 50px;
   color: #b3f0ff;
   padding: 5px;
   background-color: #003366;
@@ -34,9 +38,15 @@ nav a {
   align-content: center;
 }
 
-#first {
-  margin: auto;
-  align-items: center;
-  animation-fill-mode: forwards;
-  align-content: center;
+.insta-pic {
+  height: 40px;
+  margin: 10px;
+}
+
+.facebook-pic {
+  height: 50px;
+}
+
+.twitter-pic {
+  height: 50px;
 }
