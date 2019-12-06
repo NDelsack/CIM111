@@ -55,3 +55,9 @@ nav a {
   margin-top: 2px;
   margin-left: 25px;
 }
+
+h2 {
+  color: #003366;
+  font-size: 60px;
+  text-align: center;
+}
