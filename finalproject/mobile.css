@@ -6,28 +6,28 @@
   nav a {
     display: inline-block;
     margin-right: 3px;
-    color: orange;
+    color: #b3f0ff;
     padding: 5px;
-    background-color: green;
+    background-color: #003366;
     text-decoration: none;
     align-content: center;
     font-size: 47px;
   }
 
   #title {
-    color: green;
+    color: #003366;
     margin-left: inherit;
     margin-right: inherit;
     font-size: 70px;
   }
 
   #meet {
-    color: green;
+    color: #003366;
     font-size: 50px;
   }
 
   #details {
-    color: green;
+    color: #003366;
     font-size: 50px;
   }
 
@@ -115,7 +115,7 @@
     font-size: 40px;
   }
   #below {
-    color: green;
+    color: #003366;
   }
 
   .below_pic {
@@ -145,7 +145,7 @@
   }
   #rsvp {
     font-size: 50px;
-    color: green;
+    color: #003366;
   }
   .rsvp_description {
     font-size: 40px;

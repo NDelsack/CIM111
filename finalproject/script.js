@@ -31,27 +31,27 @@ $(document).ready(function() {
          footerClicked = 0;
       }
    });
-   
-   jQuery(window).on("scroll",function(){
-	jQuery("img:not(.done)").each(function(){
-		var win = $(window);
 
-		var viewport = {
-			top : win.scrollTop(),
-			left : win.scrollLeft()
-		};
-		viewport.right = viewport.left + win.width();
-		viewport.bottom = viewport.top + win.height();
+   jQuery(window).on("scroll", function() {
+      jQuery("img:not(.done)").each(function() {
+         var win = $(window);
 
-		var bounds = jQuery(this).offset();
-		bounds.right = bounds.left + jQuery(this).outerWidth();
-		bounds.bottom = bounds.top + jQuery(this).outerHeight();
+         var viewport = {
+            top: win.scrollTop(),
+            left: win.scrollLeft()
+         };
+         viewport.right = viewport.left + win.width();
+         viewport.bottom = viewport.top + win.height();
 
-		if((!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom))){
-			jQuery(this).addClass("done");
-			jQuery(this).hide();
-			jQuery(this).fadeIn(1000);
-		}
-	});
-});
+         var bounds = jQuery(this).offset();
+         bounds.right = bounds.left + jQuery(this).outerWidth();
+         bounds.bottom = bounds.top + jQuery(this).outerHeight();
+
+         if ((!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom))) {
+            jQuery(this).addClass("done");
+            jQuery(this).hide();
+            jQuery(this).fadeIn(1000);
+         }
+      });
+   });
 });

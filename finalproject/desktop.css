@@ -152,13 +152,86 @@ nav a {
 }
 #rsvp {
   color: #b3f0ff;
+  font-size: 25px;
 }
 .rsvp_description {
-  font-size: 130%;
+  font-size: 20px;
 }
 
 footer {
   text-align: center;
   padding: 10px;
   border-top: 1px solid grey;
+}
+
+.rep_heading {
+  color: #b3f0ff;
+  text-align: center;
+  font-size: 15px;
+}
+
+.representation {
+  color: #b3f0ff;
+  text-align: center;
+}
+
+#rep {
+  color: #b3f0ff;
+  text-align: center;
+}
+
+.rep-filler {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.lonk {
+  text-decoration: none;
+  color: pink;
+}
+.lonk:hover {
+  color: green;
+}
+
+.insta-pic {
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+  background-color: #b3f0ff;
+  padding: 5px;
+}
+
+.facebook-pic {
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 3px;
+  background-color: #b3f0ff;
+}
+
+.twitter-pic {
+  height: 37px;
+  margin-top: 2px;
+  margin-left: 25px;
+  background-color: #b3f0ff;
+  padding: 2px;
+}
+
+.social1 {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.social_heading {
+  color: #b3f0ff;
+  text-align: center;
+  font-size: 15px;
+}
+
+#social {
+  color: #b3f0ff;
+  text-align: center;
+}
+
+#social_description {
+  display: inline-block;
 }
