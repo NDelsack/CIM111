@@ -61,3 +61,30 @@ h2 {
   font-size: 60px;
   text-align: center;
 }
+
+.check-grid {
+  display: grid;
+  grid-template-areas:
+    "check-head"
+    "checkpic1 checkpic2 checkpic3";
+}
+.check-head {
+  grid-area: check-head;
+  align-content: center;
+  margin: auto;
+}
+.checkpic1 {
+  grid-area: checkpic1;
+  align-content: center;
+  margin: auto;
+}
+.checkpic2 {
+  grid-area: checkpic2;
+  align-content: center;
+  margin: auto;
+}
+.checkpic3 {
+  grid-area: checkpic3;
+  align-content: center;
+  margin: auto;
+}

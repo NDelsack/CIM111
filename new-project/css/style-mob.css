@@ -85,6 +85,7 @@ nav {
   grid-template-areas:
     "check-head"
     "checkpic1 checkpic2 checkpic3";
+  width: 800px;
 }
 
 .check-head {
@@ -106,4 +107,10 @@ nav {
   grid-area: checkpic3;
   align-content: center;
   margin: auto;
+}
+
+pix1,
+pix2,
+pix3 {
+  height: 100px;
 }
