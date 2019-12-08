@@ -1,0 +1,88 @@
+body {
+  font-family: "Old Standard TT", serif;
+  background-color: #b3f0ff;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nd {
+  color: #003366;
+  font-size: 100px;
+  text-align: center;
+}
+
+.sub {
+  color: #003366;
+  font-size: 60px;
+  text-align: center;
+}
+
+#first {
+  margin: auto;
+  width: 100%;
+}
+
+.main-pic {
+  display: block;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 50px;
+  color: #b3f0ff;
+  padding: 5px;
+  background-color: #003366;
+  font-size: 20px;
+  text-decoration: none;
+  align-content: center;
+}
+nav a:hover{
+  color: #b3f0ff;
+  text-decoration: none;
+}
+
+
+.insta-pic {
+  height: 30px;
+  margin-left: 40px;
+  margin-bottom: 1px;
+}
+
+.facebook-pic {
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+.twitter-pic {
+  height: 37px;
+  margin-top: 2px;
+  margin-left: 25px;
+}
+
+h2 {
+  color: #003366;
+  font-size: 60px;
+  text-align: center;
+}
+.images img{
+  width: 100%;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.grid img{
+    width: 100%;
+    height: 340px;
+}
+.grid p{
+  padding-top: 30px;
+}
+.brdr-b{
+  border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+.fl-right{
+  float: right;
+}
