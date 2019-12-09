@@ -129,6 +129,12 @@ nav a {
   grid-area: below_pic;
   margin: auto;
 }
+.below_pic img {
+  max-width: 600px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  padding: 5px;
+}
 
 .below_description {
   grid-area: below_description;
